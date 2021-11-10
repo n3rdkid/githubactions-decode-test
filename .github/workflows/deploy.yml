@@ -39,8 +39,8 @@ jobs:
         run: ls
       
       - name: Build the repository
-        run: |
-          yarn run start
+        # run: |
+        #   yarn run start
 
 
       - name: Setup Cloud SDK
