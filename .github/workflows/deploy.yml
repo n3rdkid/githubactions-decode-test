@@ -35,9 +35,9 @@ jobs:
       - name: Create service account key
         run: echo ${{secrets.FIREBASE_KEY}} | base64 --decode > serviceAccountKey.json  
 
-      - name: Build the repository
-        run: |
-          yarn run start
+      # - name: Build the repository
+      #   run: |
+      #     yarn run start
 
       - name: Setup Cloud SDK
         uses: google-github-actions/setup-gcloud@v0.2.0
