@@ -1,3 +1,4 @@
 runtime: nodejs14
 env: standard
 instance_class: F1
+service: default
