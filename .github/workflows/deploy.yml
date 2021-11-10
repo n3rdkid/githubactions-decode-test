@@ -38,7 +38,7 @@ jobs:
       - name: Show file list
         run: ls
       
-      - name: Build the repository
+      # - name: Build the repository
         # run: |
         #   yarn run start
 
