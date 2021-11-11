@@ -33,7 +33,7 @@ jobs:
         run:  yarn install
 
       - name: Create service account key
-        run: echo ${{secrets.FIREBASE_SERVICE_KEY}} | base64 --decode >> serviceAccountKey.json  
+        run: echo ${{secrets.FIREBASE_SERVICE_KEY}} | base64 --decode > serviceAccountKey.json  
 
       - name: Show file list
         run: ls
